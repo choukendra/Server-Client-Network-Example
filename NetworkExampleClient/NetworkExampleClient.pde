@@ -14,8 +14,8 @@ void setup() {
   incoming = ""; 
   outgoing = "";
   //-----------------sketch, ip address (home is usually 127.0.0.1), port #
-  myClient = new Client (this, "209.121.150.126", 1234);
-  //209.121.150.126 is Mr. Pelletier's ip address 
+  myClient = new Client (this, "127.0.0.1", 1234);
+
 }
 
 void draw() {
